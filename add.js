@@ -3,10 +3,10 @@ let name= prompt("Enter your name: ")
 
 if(age > 18){
 
-    document.write( <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJyxmVjfhYUXNJO-ovch15uwURFKGQ_A-Cig&usqp=CAU" /> )
+    document.write( "<Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJyxmVjfhYUXNJO-ovch15uwURFKGQ_A-Cig&usqp=CAU' alt='Car' />" );
 }
 else{
-    document.write(<Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6loCx36rsztAfEQJ8CBOdJSbv0SsQu16gjA&usqp=CAU" />)
+    document.write("<Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6loCx36rsztAfEQJ8CBOdJSbv0SsQu16gjA&usqp=CAU' alt='Car' />");
 }
 let CC=prompt("how many times do you want to see an animal pecture")
 for(i=0; i<CC ;i++){
@@ -17,5 +17,5 @@ for(i=0; i<CC ;i++){
           "<h4>Animals</h4>"+
       "</div>"
     )
-
-alert("in case you forgot your name your name is : " + name);
+    }
+alert("in case you forgot your name your name is : " + name)
