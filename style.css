@@ -1,9 +1,7 @@
-head{
-    background-color: bisque;
+button{
+    padding: 10px 40px;
 }
-body{
-    background-color: bisque;
-}
-h1{
-    background-color: gray;
+button :hover{
+    background-color: black;
+    color: white;
 }

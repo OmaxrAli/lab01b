@@ -1,21 +1,55 @@
-let age= prompt("How old are you?")
-let name= prompt("Enter your name: ")
+'use strict'
 
-if(age > 18){
+function theStart(){
+let Q1= prompt("Question 1 Y/N");
+Q1.toUpperCase();
+  if(Q1 === 'Y'){
+   alert('you are right')
+  }
+  else if(Q1=== 'N'){
+     alert('you are wrong')
+  }
+  else{
+    alert('please input Y/N')
+  }
+  // ----------------------------- Q1
+let Q2= prompt("Question 2 Y/N");
+Q1.toUpperCase();
 
-    document.write( "<Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJyxmVjfhYUXNJO-ovch15uwURFKGQ_A-Cig&usqp=CAU' alt='Car' />" );
+if(Q1 === 'N'){
+  alert('you are right')
+ }
+ else if(Q1=== 'Y'){
+    alert('you are wrong')
+ }
+ else{
+   alert('please input Y/N')
+ }
+   // ----------------------------- Q2
+let Q3= prompt("Question 3 Y/N");
+Q1.toUpperCase();
+
+if(Q1 === 'Y'){
+  alert('you are right')
+ }
+ else if(Q1=== 'N'){
+    alert('you are wrong')
+ }
+ else{
+   alert('please input Y/N');
+ }
+   // ----------------------------- Q3
+let Q4= prompt("Question 4 Y/N");
+Q1.toUpperCase();
+
+if(Q1 === 'Y'){
+  alert('you are right');
+ }
+ else if(Q1=== 'N'){
+    alert('you are wrong');
+ }
+ else{
+   alert('please input Y/N');
+ }
+  // ----------------------------- Q4
 }
-else{
-    document.write("<Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6loCx36rsztAfEQJ8CBOdJSbv0SsQu16gjA&usqp=CAU' alt='Car' />");
-}
-let CC=prompt("how many times do you want to see an animal pecture")
-for(i=0; i<CC ;i++){
-    document.write(
-    "<p>Understanding the animals would help us interacting with nature better</p>"+
-      "<div> "+
-        "<img src='https://i.pinimg.com/originals/3d/25/db/3d25dbb646dad29a418d2a2863acd328.jpg' alt='Animals'>"+
-          "<h4>Animals</h4>"+
-      "</div>"
-    )
-    }
-alert("in case you forgot your name your name is : " + name)
